@@ -1,0 +1,4 @@
+services:
+  - name: web
+    buildCommand: python3 -m pip install -r requirements.txt
+    startCommand: python3 app.py
